@@ -66,7 +66,7 @@ function Landing() {
           </p>
           <button
             ref={(el) => (heroRefs.current[4] = el)}
-            className="inline-flex items-center justify-center px-8 py-3 md:px-10 md:py-4 bg-gradient-to-r from-[#BFA181] to-[#8D6748] text-white font-bold text-lg rounded-2xl shadow-lg hover:shadow-xl hover:from-[#8D6748] hover:to-[#BFA181] transition-all duration-300 active:scale-95"
+            className="inline-flex items-center justify-center px-8 py-3 md:px-10 md:py-4 bg-gradient-to-r from-[#BFA181] to-[#8D6748] text-[var(--text) font-bold text-lg rounded-2xl shadow-lg hover:shadow-xl hover:from-[#8D6748] hover:to-[#BFA181] transition-all duration-300 active:scale-95"
             onClick={() => navigate("/companies")}
           >
             View Companies →

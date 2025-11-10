@@ -1,5 +1,5 @@
 // Simple service for fetching companies from backend API
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+const API_BASE = "https://flm-company-directory.onrender.com";
 
 export async function fetchCompanies({ page = 1, limit = 10, search = '', location = '', industry = '', sort = '' } = {}) {
   const params = new URLSearchParams();
