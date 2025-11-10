@@ -131,7 +131,7 @@ export default function Companies() {
                       onClick={() => goPage(p)}
                       className={`w-10 h-10 rounded-lg font-bold transition-all active:scale-95 ${
                         p === data.page
-                          ? "bg-gradient-to-r from-[#BFA181] to-[#8D6748] text-white shadow-md"
+                          ? "bg-gradient-to-r from-[#BFA181] to-[#8D6748] text-[var(--text)] shadow-md"
                           : "border border-[var(--border)] bg-[var(--input-bg)] text-[var(--text)] hover:bg-[var(--border)]"
                       }`}
                     >
