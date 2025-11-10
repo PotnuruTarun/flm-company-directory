@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+:root[data-theme="light"] {
+  --page: #F5EFE6;
+  --text: #3B2210;
+  --bg: #fff;
+  --surface: #fff;
+  --muted: #8D6748;
+  --border: #E5D3B3;
+  --shadow: 0 8px 24px rgba(141, 103, 72, 0.08);
+  --radius: 16px;
+  --accent: #BFA181;
+  --accent-2: #8D6748;
+  --nav-bg: #fff;
+  --nav-link: #8D6748;
+  --nav-link-active-bg: #F5EFE6;
+  --nav-link-active-fg: #8D6748;
+  --input-bg: #F5EFE6;
+  --chip-bg: #F5EFE6;
+  --chip-fg: #8D6748;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #2D2217;
+  --text: #F5EFE6;
+  --bg: #3B2C1A;
+  --surface: #3B2C1A;
+  --muted: #BFA181;
+  --border: #8D6748;
+  --shadow: 0 12px 30px rgba(141, 103, 72, 0.18);
+  --radius: 16px;
+  --accent: #BFA181;
+  --accent-2: #F5EFE6;
+  --nav-bg: #2D2217;
+  --nav-link: #F5EFE6;
+  --nav-link-active-bg: #8D6748;
+  --nav-link-active-fg: #fff;
+  --input-bg: #3B2C1A;
+  --chip-bg: #8D6748;
+  --chip-fg: #fff;
+}
+
+body {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  background: var(--page);
+  color: var(--text);
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6, .main-title {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  color: var(--text);
+  letter-spacing: 0.01em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
