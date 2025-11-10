@@ -112,7 +112,7 @@ export default function Companies() {
                 </span>{" "}
                 —{" "}
                 <span className="text-[var(--muted)]">
-                  {data.total} total companies
+                  {data.total} Total Companies
                 </span>
               </div>
               <div className="flex items-center gap-2 flex-wrap justify-center">
